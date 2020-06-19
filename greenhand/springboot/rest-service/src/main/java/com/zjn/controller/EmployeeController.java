@@ -1,6 +1,6 @@
 package com.zjn.controller;
 
-import com.zjn.component.EmployeeModelAssembler;
+import com.zjn.component.assembler.EmployeeModelAssembler;
 import com.zjn.dao.EmployeeRepository;
 import com.zjn.exception.EmployeeNotFoundException;
 import com.zjn.pojo.po.Employee;

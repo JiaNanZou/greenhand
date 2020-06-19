@@ -5,6 +5,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>rest-service</module>
+        <module>rest-template</module>
+        <module>schdule-task</module>
+        <module>jdbc-template</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -67,6 +70,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-hateoas</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.awaitility</groupId>
+            <artifactId>awaitility</artifactId>
+            <version>3.1.2</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
